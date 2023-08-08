@@ -15,13 +15,13 @@ return [
     |
     */
 
-    'paths' => ['*'],
+    'paths' => ['*', 'api/*', 'sanctum/*', 'login', 'logout', 'register', 'password/email', 'password/reset'],
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => [env('FRONTEND_URL', 'http://localhost:3000', 'https://jobs.meta.mt')],
+    'allowed_origins' => [env('FRONTEND_URL') , 'http://localhost:3000', 'https://jobs.meta.mt'],
 
-    'allowed_origins_patterns' => [],
+    'allowed_origins_patterns' => ['*'],
 
     'allowed_headers' => ['*'],
 
