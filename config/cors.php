@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'paths' => ['*', 'api/*', 'sanctum/*', 'login', 'logout', 'register', 'password/email', 'password/reset'],
+    'paths' => ['*', 'api/*', 'sanctum/*', 'login', 'logout', 'register', 'password/email', 'password/reset', 'forgot-password', 'reset-password', '/email/verification-notification'],
 
     'allowed_methods' => ['*'],
 
